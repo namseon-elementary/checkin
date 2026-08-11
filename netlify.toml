@@ -7,7 +7,7 @@
 # 루트로 접속하면 감정체크 앱으로
 [[redirects]]
   from = "/"
-  to = "/emotion_check_3.html"
+  to = "/index.html"
   status = 200
 
 # 특별 미션 페이지는 짧은 경로 지원
