@@ -1365,7 +1365,7 @@ function buildCard(q, gi, total) {
 
   const rotTag = q.rot ? `<div class="rtag">${t("🔥 오늘의 특별 질문","🔥 Today's Special Question")}</div>` : '';
   let h = rotTag;
-  h+=`<div class="qnum">Q${gi} / ${total}</div><div class="qt">${displayText}</div><div class="qax">${q.axis}</div><div id="i-${q.id}"></div>`;
+  h+=`<div class="qnum">Q${gi} / ${total}</div><div class="qt">${displayText}</div><div id="i-${q.id}"></div>`;
   (q.sub||[]).forEach(s=>{
     h+=`<div class="sub ${S.ans[q.id]==='yes'?'on':''}" id="s-${q.id}-${s.id}"><div class="subt">${qText(s)}</div><div id="i-${s.id}"></div></div>`;
   });
